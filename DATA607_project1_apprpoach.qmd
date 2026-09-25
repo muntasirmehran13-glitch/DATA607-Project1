@@ -1,0 +1,12 @@
+---
+title: "DATA 607 Project 1 - Approach"
+author: "Muntasir"
+format: html
+editor: visual
+---
+
+## Approach
+
+For project 1, I hope to utlize R to clean and organize the chess torunament text file into a formatted dataset. Because the original file has player data throughout several lines, I will intially read the file into R and pinpoint the records connected with each player. From such rcords, I will extract the individual player's name, state, total points, and pre-torunament ratings. I will later extrapolate the opponent data provided in every player's torunament rounds. Applying these values, I hope to link every opponent to their correlated rating before a tournament. The average opponent rating for every player wil also be computed. I will need to consider rounds that do not have a typical opponent number, like unplayed rounds, which could inappropriately impact the mean.
+
+Ultimately, I will format the results into a data frame, having player name, state, overall points, pre-ratings, and average opponent pre-rating. I will try to reference the provided Gary Hua case as a verifier of my caclulation accuracy. I would need to look further into the process before adapting the process for all players. I plan to showcase the complete dataset in an exported CSV file.
